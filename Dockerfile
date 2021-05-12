@@ -11,7 +11,7 @@ RUN if [ "$NODE_ENV" = "development" ]; \
   else npm install --production; \
   fi
 
-COPY . .
+COPY ./ ./
 
 ENV PORT 3000
 
