@@ -62,7 +62,7 @@ app.use(
 );
 
 app.get("/api/v1", (req, res) => {
-  res.send(`<h2>Hi there 💋💋💋</h2>`);
+  res.send(`<h2>Hi there 💋💋💋 💪💪💪🦾🦶</h2>`);
 });
 app.use("/api/v1/posts", postRouter);
 app.use("/api/v1/users", userRouter);
