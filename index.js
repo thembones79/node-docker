@@ -56,13 +56,13 @@ app.use(
     cookie: {
       secure: false,
       httpOnly: true,
-      maxAge: 30000, //1000 * 3600 * 24,
+      maxAge: 1000 * 3600 * 24,
     },
   })
 );
 
 app.get("/api/v1", (req, res) => {
-  res.send(`<h2>Hi there</h2>`);
+  res.send(`<h2>Hi there 💋</h2>`);
 });
 app.use("/api/v1/posts", postRouter);
 app.use("/api/v1/users", userRouter);
